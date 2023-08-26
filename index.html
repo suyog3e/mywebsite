@@ -84,30 +84,18 @@
         <div class="services-list">
           <div>
             <i class="fa-brands fa-css3-alt"></i>
-            <h2>Web Design</h2>
-            <p>hell oudsfhbs asjdfjhsdf shfgs fshdfgsdhgfshjg sdf gshfgsd sdhfbsds
-              dfgdfgdfg 
-              dfgdfgdfgdgdg g d 
-              dfg dfg
-            </p>
+            <h2>Web Designing</h2>
+            <p> </p>
             <a href="#">Learn More</a>
           </div><div>
             <i class="fa-solid fa-code"></i>
             <h2>Web Development</h2>
-            <p>hell oudsfhbs asjdfjhsdf shfgs fshdfgsdhgfshjg sdf gshfgsd sdhfbsds
-              dfgdfgdfg 
-              dfgdfgdfgdgdg g d 
-              dfg dfg
-            </p>
+            <p> </p>
             <a href="#">Learn More</a>
           </div><div>
             <i class="fa-solid fa-wand-magic-sparkles"></i>
-            <h2>Graphic Design</h2>
-            <p>hell oudsfhbs asjdfjhsdf shfgs fshdfgsdhgfshjg sdf gshfgsd sdhfbsds
-              dfgdfgdfg 
-              dfgdfgdfgdgdg g d 
-              dfg dfg
-            </p>
+            <h2>Graphic Designing</h2>
+            <p> </p>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -123,7 +111,7 @@
         <div class="layer">
           <h3><i class="fa-solid fa-calculator"></i><br>Calculator</h3>
           <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
-          <a href="#"><i class="fa-solid fa-link"></i></a>
+          <a href="CALCULATOR/calculator.html", href="CALCULATOR/calculator.css"><i class="fa-solid fa-link"></i></a>
         </div>
       </div> 
       <div class="work">
@@ -155,14 +143,14 @@
     <p><i class="fa-solid fa-at"></i>sygghimi@gmail.com</p>
     <p><i class="fa-solid fa-square-phone"></i>9841319354</p>
     <div class="social-icons">
-      <a href=""><i class="fa-brands fa-facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-youtube"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.facebook.com/suyogvamp"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.youtube.com/channel/UCfxlh55GVa5dDs4UbS8gCBw"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://twitter.com/SuyogGhimire3e"><i class="fa-brands fa-twitter"></i></a>
        </div>
        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
     </div>
     <div class="contact-right">
-      <form onsubmit="sendEmail(); reset(); return false;">
+      <form action="https://formspree.io/f/maygovwn" method="post">
         <input type="text" name="Name" placeholder="Your Good Name" required>
         <input type="email" name="email" placeholder="Your email" required>
         <input type="number" name="number" placeholder="Your Phone no." required>
@@ -203,38 +191,11 @@ function openmenu(){
 function closemenu(){
      sidemenu.style.right = "-200px"; 
  } 
-      </script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail(){
-      Email.send({
-          Host : "smtp.gmail.com",
-          Username : "suyogghimire396@gmail.com",
-          Password : "suyogghimi@12345",
-          To : 'sygghimi@gmail.com',
-          From : document.getElementById("email").value,
-          Subject : "Message to contact",
-          Body : "Name: " + document.getElementById("name").value
-            +"<br> Email: " + document.getElementById("email").value
-            +"<br> Your phone no: " + document.getElementById("phone").value
-            +"<br> Message: " + document.getElementById("message").value
-         }).then(
-         message => alert("Congratukations!! We are in touch now.")
-          );
 
-    }
+ 
+ 
+   
   </script>
-   <script>
-    var typed= new typed(".anitext", {
-        Strings:["Web Designer", "Web Developer", "Graphic Designer"],
-        typeSpeed:100,
-        backSpeed:100,
-        backDelay:1000,
-        loop: true 
-
-      })  
-
-   </script>
 
 
   </body>
