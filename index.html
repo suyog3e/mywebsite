@@ -10,6 +10,9 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
 <body>
+  <div id="preloader"> 
+
+  </div>
     <div id="header">
         <div class="container">
             <nav>
@@ -19,17 +22,18 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">My Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#content">Contact</a></li>
                     <i class="fas fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
           <div class="header-text">
-           <p>Web Developer</p>
+           <p>Tech Enthusiast. 🔥</p>
            <h1>Hi, I'm <span>Suyog</span> <br>Ghimire From Nepal</h1>
           </div>
         </div>
     </div>
+    <hr color="red">
     <div id="about">
         <div class="container">
             <div class="row">
@@ -38,14 +42,14 @@
               </div>  
               <div class="about-col-2">
               <h1 class="sub-title">About Me</h1>
+              <div class="box">
               <p>
-                hii whats uppp my name is suyog ghimire 
-                i am very goodsgdg
-                dsgdg
-                dfgdfgdfgggfgh
-                dgdgdgdfgdgdgdgfg
-                fgdf.
+                Hello everyone. It's me Suyog Ghimire,<br> Web Developer, Web Designer & Graphic Designer.<br> Currently I'am studying in grade 12 with science <br>faculty physical group.
+                For more info you can<br> download my CV given below.
               </p>
+              <br>
+              <hr>
+            </div>
               <div class="tab-titles">
                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                 <p class="tab-links"onclick="opentab('experience')">Experience</p>
@@ -68,8 +72,8 @@
               </div><div class="tab-contents" id="education">
                 <ul>
                   <li><span>2079</span><br>Passed SEE</li>
-                  <li><span>2079-2080</span><br>Grade XI with science faculty physical group.<br>Studied the basics of HTML and CSS</li>
-                  <li><span>2080-Current</span><br>Grade XII<br>Learned JS and PHP.</li>
+                  <li><span>2079-2080</span><br>Grade XI with science faculty physical group. Prasadi Academy, Lalitpur<br><br>Studied the basics of HTML and CSS</li>
+                  <li><span>2080-Current</span><br>Grade XII<br>Prasadi Academy, Lalitpur<br><br>Learned JS and PHP.</li>
                   
                 </ul>
               </div>
@@ -77,6 +81,7 @@
             </div>
         </div>
     </div>
+    <br><hr color="red">
     <!----------services--------->
     <div id="services">
       <div class="container">
@@ -87,27 +92,32 @@
             <h2>Web Designing</h2>
             <p> </p>
             <a href="#">Learn More</a>
-          </div><div>
+          </div>
+          <div>
             <i class="fa-solid fa-code"></i>
             <h2>Web Development</h2>
-            <p> </p>
+            <p></p>
             <a href="#">Learn More</a>
           </div><div>
             <i class="fa-solid fa-wand-magic-sparkles"></i>
             <h2>Graphic Designing</h2>
-            <p> </p>
+            <p> 
+              
+            </p>
             <a href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
+       </div>   
     </div>
+      </div>
+
+  </div>
+  <hr color="red">
 <!--------portfolio------>
 <div id="portfolio">
   <div class="container">
     <h1 class="sub-title">My Works</h1>
     <div class="work-list">
       <div class="work">
-        <img src="images/work-1.png">
+        <img src="images/calculator.png">
         <div class="layer">
           <h3><i class="fa-solid fa-calculator"></i><br>Calculator</h3>
           <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
@@ -115,7 +125,7 @@
         </div>
       </div> 
       <div class="work">
-        <img src="images/work-2.png">
+        <img src="images/loginpage.png">
         <div class="layer">
           <h3>Login Page</h3>
           <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
@@ -123,7 +133,7 @@
         </div>
       </div>  
           <div class="work">
-        <img src="images/work-3.png">
+        <img src="images/hostel1.png">
         <div class="layer">
           <h3>Hostel Website</h3>
           <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
@@ -132,8 +142,11 @@
       </div>
     </div>
      <a href="#" class="btn">See More</a>
+     
   </div>
+  <hr color="red">
 </div>
+
 <!---------contact------>
 <div id="content">
   <div class="container">
@@ -160,9 +173,13 @@
     </div>
     </div>
   </div>
+
   <div class="copyright">
     <p>Copyright &copy <span>Suyog</span> 2023. All rights reserved.</p>
   </div>
+  </div> <div iframe width="0" height="0" src="https://www.youtube.com/embed/ifjwAHQtsi8?si=Fi6RAxGSdkdAhHIV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/ifjwAHQtsi8?si=Fi6RAxGSdkdAhHIV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>
 </div>
 
 
@@ -191,10 +208,15 @@ function openmenu(){
 function closemenu(){
      sidemenu.style.right = "-200px"; 
  } 
+  </script>
 
- 
- 
-   
+  <script>
+
+   var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+       loader.style.display = "none";
+    })
+
   </script>
 
 
