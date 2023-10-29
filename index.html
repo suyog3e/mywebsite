@@ -27,13 +27,18 @@
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
+            <div class="image">
+              <img src="">
+            </div>
           <div class="header-text">
            <p>Tech Enthusiast. 🔥</p>
            <h1>Hi, I'm <span>Suyog</span> <br>Ghimire From Nepal</h1>
+          <a href="#content" class="botn">Hire Me</a>
+            </div>
           </div>
         </div>
     </div>
-    <hr color="red">
+    
     <div id="about">
         <div class="container">
             <div class="row">
@@ -81,7 +86,7 @@
             </div>
         </div>
     </div>
-    <br><hr color="red">
+    <br>
     <!----------services--------->
     <div id="services">
       <div class="container">
@@ -110,7 +115,7 @@
       </div>
 
   </div>
-  <hr color="red">
+  
 <!--------portfolio------>
 <div id="portfolio">
   <div class="container">
@@ -120,7 +125,7 @@
         <img src="images/calculator.png">
         <div class="layer">
           <h3><i class="fa-solid fa-calculator"></i><br>Calculator</h3>
-          <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
+          <p></p>
           <a href="CALCULATOR/calculator.html", href="CALCULATOR/calculator.css"><i class="fa-solid fa-link"></i></a>
         </div>
       </div> 
@@ -128,7 +133,7 @@
         <img src="images/loginpage.png">
         <div class="layer">
           <h3>Login Page</h3>
-          <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
+          <p></p>
           <a href="#"><i class="fa-solid fa-link"></i></a>
         </div>
       </div>  
@@ -136,7 +141,7 @@
         <img src="images/hostel1.png">
         <div class="layer">
           <h3>Hostel Website</h3>
-          <p>Calfgs sdfshdgfs dfhsd fjsgdfg sdhfgshdgfsfdh s dfjgsdf</p>
+          <p></p>
           <a href="#"><i class="fa-solid fa-link"></i></a>
         </div>
       </div>
@@ -178,8 +183,9 @@
     <p>Copyright &copy <span>Suyog</span> 2023. All rights reserved.</p>
   </div>
   </div> <div iframe width="0" height="0" src="https://www.youtube.com/embed/ifjwAHQtsi8?si=Fi6RAxGSdkdAhHIV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="0" height="0" src="https://www.youtube.com/embed/ifjwAHQtsi8?si=Fi6RAxGSdkdAhHIV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- </div>
+    
+    
+  </div>
 </div>
 
 
@@ -217,6 +223,22 @@ function closemenu(){
        loader.style.display = "none";
     })
 
+  </script>
+  <script>
+    const text = document.querySelector("header-text");
+    const textLoad = () => {
+      setTimeout(() => {
+      text.textContent = "Developer";
+    }, 0);
+    setTimeout(() => {
+      text.textContent = "Freelancer";
+    }, 4000);
+    setTimeout(() => {
+      text.textContent = "Designer";
+    }, 8000); 
+  }
+  textLoad();
+  setInterval(textLoad, 12000);
   </script>
 
 
